@@ -1,0 +1,59 @@
+                .main_wraper {
+                    width: 70%;
+                    margin: auto;
+                }
+                
+                .main_wraper h2,
+                .main_wraper p {
+                    margin: 30px 10px;
+                    display: flex;
+                    align-items: center;
+                }
+                
+                .main_wraper textarea {
+                    width: 800px;
+                    font-size: large;
+                    border-radius: 10px;
+                    padding: 10px;
+                    border: 2px solid #ccc;
+                }
+                
+                .text_fields {
+                    display: flex;
+                    flex-Direction: column;
+                }
+                
+                .answers {
+                    display: flex;
+                    align-Items: center;
+                }
+                
+                .last_texts {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 1px;
+                }
+                
+                .last_texts h2 {
+                    margin-bottom: 5px !important;
+                }
+                
+                .last_texts a {
+                    text-decoration: none;
+                    color: #FE8402;
+                    font-size: large;
+                }
+                
+                .main_wraper button {
+                    width: 830px;
+                    border-radius: 5px;
+                    height: 48px;
+                    color: white;
+                    background-color: #516CF0;
+                    margin-bottom: 40px;
+                    font-size: larger;
+                    border: none;
+                    cursor: pointer;
+                }

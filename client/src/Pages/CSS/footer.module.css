@@ -1,0 +1,66 @@
+                    .footer_wraper {
+                        height: 250px;
+                        width: 100%;
+                        background-color: #3B455A;
+                        display: flex;
+                    }
+                    
+                    .footer_wraper li {
+                        list-style: none;
+                    }
+                    
+                    .footer_container {
+                        width: 80%;
+                        margin: auto;
+                        display: flex;
+                        justify-content: space-between;
+                        color: white;
+                    }
+                    
+                    .social_media {
+                        display: flex;
+                        gap: 28px;
+                        flex-direction: column;
+                    }
+                    
+                    .social_media ul {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    
+                    .middle_footer {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 28px;
+                        align-items: center;
+                        font-size: 18px;
+                    }
+                    
+                    .middle_footer ul {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 28px;
+                        align-items: center;
+                        font-size: 16px;
+                    }
+                    
+                    .end_footer {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 28px;
+                        align-items: center;
+                        font-size: 18px;
+                    }
+                    
+                    .end_footer ul {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 28px;
+                        align-items: center;
+                        font-size: 16px;
+                    }
+                    
+                    .end_footer a {
+                        text-decoration: none;
+                        color: white;
+                    }

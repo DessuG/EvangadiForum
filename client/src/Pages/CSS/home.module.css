@@ -1,0 +1,58 @@
+.home_wraper {
+    width: 70%;
+    margin: auto;
+}
+
+.home_container {
+    display: flex;
+    justify-Content: space-between;
+    width: 98%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.sm_button {
+    background-Color: #516CF0;
+    border: none;
+    border-Radius: 5px;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.big_button {
+    display: flex;
+    background-Color: white;
+    width: 100%;
+    margin: 10px auto;
+    height: 100px;
+    border: none;
+    font-Weight: bold;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.mid_div {
+    display: flex;
+    justify-Content: space-between;
+    width: 100%;
+    align-Items: center;
+}
+
+.Question_search {
+    width: 90%;
+    margin: 30px auto 0 30px !important;
+    border-radius: 5px;
+    height: 44px;
+    padding-left: 20px;
+    border: 1px solid black !important;
+    font-weight: bold;
+    font-size: larger;
+    opacity: 0.5;
+}

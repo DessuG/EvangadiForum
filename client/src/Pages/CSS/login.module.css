@@ -1,0 +1,197 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                .login_all {
+                    width: 100%;
+                    max-width: 100%;
+                    box-sizing: border-box;
+                    background-repeat: no-repeat;
+                    background-image: url("../assets/images/0001.PNG");
+                    background-color: #F8F8F8;
+                    background-size: cover;
+                    background-position: center;
+                    font-size: 18px;
+                    letter-spacing: 1px;
+                    word-spacing: 5px;
+                }
+                
+                .login_wrap {
+                    display: flex;
+                    width: 80%;
+                    margin: auto;
+                    height: 700px;
+                }
+                
+                .input_form {
+                    display: flex;
+                    height: 620px;
+                    margin: auto;
+                    justify-content: center !important;
+                    align-items: center;
+                    background-color: white;
+                    width: 50%;
+                    border-radius: 5px;
+                    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                }
+                
+                .input_form a {
+                    text-decoration: none;
+                    color: #E17000;
+                }
+                
+                .input_form input,
+                .input_form button {
+                    width: 460px;
+                    height: 48px;
+                    border-radius: 5px;
+                    font-size: 18px;
+                    border: solid 0.001px;
+                }
+                
+                .input_form input {
+                    padding-left: 18px;
+                    opacity: 0.3;
+                    padding-right: 30px;
+                }
+                
+                input:focus::before {
+                    width: 0;
+                    bottom: 0;
+                    left: 0;
+                }
+                
+                input:focus {
+                    border-bottom: 5px solid hwb(20 0% 0%);
+                    -webkit-transition: 0.5s;
+                    transition: border-bottom-width 0.6s ease-in-out;
+                    outline: none;
+                }
+                
+                .input_form button {
+                    background-color: #516CF0;
+                    border: none;
+                    color: white;
+                    font-size: 20px;
+                    cursor: pointer;
+                    margin-top: 30px;
+                    width: 100%;
+                }
+                
+                .login_right {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-left: 30px;
+                }
+                
+                .login_side {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .login_right button {
+                    width: 260px;
+                    height: 46px;
+                    border: none;
+                    background-color: #FE8402;
+                    color: white;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+                
+                .login_right a {
+                    text-decoration: none;
+                    color: #E17000;
+                }
+                
+                .login_right p {
+                    opacity: 0.6;
+                }
+                
+                .fadding_text {
+                    font-size: 60px;
+                    font-weight: bold;
+                    background-image: linear-gradient(to right, #FE8402, #5e180d, #080908);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    color: transparent;
+                    animation: fade-color 5s ease-in-out infinite;
+                }
+                
+                .password_toggle {
+                    position: absolute;
+                    top: 50%;
+                    right: 10px;
+                    transform: translateY(-50%);
+                    cursor: pointer;
+                }
+                
+                .password_field {
+                    position: relative;
+                    display: inline-block;
+                }
+                /* signup */
+                
+                .signup_wrap {
+                    display: flex;
+                    width: 80%;
+                    margin: auto;
+                    height: 700px;
+                }
+                
+                .input_formR {
+                    display: flex;
+                    height: 620px;
+                    margin: auto;
+                    justify-content: center !important;
+                    align-items: center;
+                    background-color: white;
+                    width: 50%;
+                    border-radius: 5px;
+                    transition: transform 0.5s ease;
+                    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                }
+                
+                .input_formR a {
+                    text-decoration: none;
+                    color: #E17000;
+                }
+                
+                .input_formR input,
+                .input_formR button {
+                    width: 460px;
+                    height: 48px;
+                    border-radius: 5px;
+                    font-size: 18px;
+                    border: solid 0.001px;
+                }
+                
+                .input_formR button {
+                    background-color: #516CF0;
+                    border: none;
+                    color: white;
+                    font-size: 20px;
+                    cursor: pointer;
+                    margin-top: 30px;
+                    width: 510px;
+                }
+                
+                .input_formR input {
+                    padding-left: 18px;
+                    opacity: 0.3;
+                    padding-right: 30px;
+                }
+                
+                .text_center,
+                .final_text {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    font-size: 14;
+                    opacity: 0.7;
+                }

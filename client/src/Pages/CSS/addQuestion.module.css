@@ -1,0 +1,76 @@
+                                        .all_addQ {
+                                            align-Items: center;
+                                            display: flex;
+                                            flex-Direction: column;
+                                            justify-Content: center;
+                                            width: 70%;
+                                            margin: 60px auto;
+                                        }
+                                        
+                                        .all_addQ h2 {
+                                            font-size: xx-large;
+                                        }
+                                        
+                                        .all_addQ a {
+                                            text-decoration: none;
+                                            color: #FE8402;
+                                            font-size: 14;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .guideline {
+                                            font-size: 20px;
+                                            line-height: 1.6;
+                                        }
+                                        
+                                        .guideline li {
+                                            list-style: none;
+                                            display: flex;
+                                            align-items: center;
+                                        }
+                                        
+                                        .guideline ul {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                        }
+                                        
+                                        .all_addQ input {
+                                            width: 700px !important;
+                                            height: 44px;
+                                            border-radius: 10px;
+                                            padding-left: 10px;
+                                            font-size: large;
+                                            border: 1px solid #666666
+                                        }
+                                        
+                                        .all_addQ textarea {
+                                            width: 700px !important;
+                                            border-radius: 10px;
+                                            font-size: larger;
+                                            padding-left: 10px;
+                                            height: 120px !important;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .Text_inputs {
+                                            display: flex;
+                                            flex-Direction: column;
+                                            gap: 18px;
+                                            width: 100%;
+                                        }
+                                        
+                                        .all_addQ button {
+                                            width: 100%;
+                                            height: 44px;
+                                            background-color: #516CF0;
+                                            color: white;
+                                            font-size: large;
+                                            border: none;
+                                            border-radius: 5px;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        .all_addQ button:focus {
+                                            transition: none !important;
+                                        }
